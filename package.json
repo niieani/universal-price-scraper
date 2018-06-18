@@ -1,0 +1,24 @@
+{
+  "name": "price-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bazyli Brzoska",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node index"
+  },
+  "devDependencies": {
+    "@types/csvtojson": "1.1.5",
+    "@types/json2csv": "4.1.0",
+    "@types/node": "10.3.3",
+    "ts-node": "6.1.1",
+    "typescript": "2.9.2"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "csvtojson": "2.0.3",
+    "currency-symbol-map": "4.0.4",
+    "json2csv": "4.1.3"
+  }
+}
